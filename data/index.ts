@@ -112,66 +112,55 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Antonio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Antonio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Antonio is the ideal partner.",
+    name: "Alejandro  Saucedo",
+    title: "CEO of Visual Routine Studio",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Antonio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Antonio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Antonio is the ideal partner.",
+    name: "Alejandro  Saucedo",
+    title: "CEO of Visual Routine Studio",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Antonio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Antonio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Antonio is the ideal partner.",
+    name: "Alejandro  Saucedo",
+    title: "CEO of Visual Routine Studio",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Antonio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Antonio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Antonio is the ideal partner.",
+    name: "Alejandro  Saucedo",
+    title: "CEO of Visual Routine Studio",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Antonio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Antonio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Antonio is the ideal partner.",
+    name: "Alejandro  Saucedo",
+    title: "CEO of Visual Routine Studio",
   },
 ];
 
 export const companies = [
+
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
+    name: "mercedes",
+    img: "/mercedes.svg",
     nameImg: "/appName.svg",
   },
   {
+    id: 2,
+    name: "visualRoutine",
+    img: "/visualRoutine.svg",
+    nameImg: "/visualRoutineName.svg",
+  },
+  {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "santander",
+    img: "/santander.svg",
+    nameImg: "/santanderName.svg",
   },
 ];
 

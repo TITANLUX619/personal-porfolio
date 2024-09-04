@@ -1,0 +1,15 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Círculo negro con borde blanco -->
+  <circle cx="100" cy="100" r="90" fill="black" stroke="white" stroke-width="10"/>
+  
+  <!-- Círculo blanco interior, ajustado para no tocar el borde blanco -->
+  <circle cx="140" cy="60" r="12" fill="white"/>
+  
+  <!-- Texto centrado en la parte inferior del círculo -->
+  <text x="50%" y="120" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="white" text-anchor="middle">
+    VISUAL ROUTINE
+  </text>
+  <text x="50%" y="135" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">
+    STUDIO
+  </text>
+</svg>
