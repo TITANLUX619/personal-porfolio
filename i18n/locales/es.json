@@ -1,0 +1,114 @@
+{ 
+  "about": {
+    "copyEmail": "Copia mi email",
+    "emailCopied": "Email copiado!"
+  },
+  "hero" : {
+    "title": "Dando Vida a las Visiones a Través de Experiencias de Usuario Impecables",
+    "subtitle": "¡Hola! Soy Antonio, desarrollador sénior React/Next.js afincado en Sevilla, España.",
+    "button": "Ver mi trabajo"
+  },
+  "recentProjects": {
+    "title1": "Pequeña selección de ",
+    "title2": "proyectos recientes",
+    "cardButton": "Ver demo"
+  },
+  "experience": {
+    "title1": "Mi ",
+    "title2": "experiencia laboral"
+  },
+  "navItems": {
+    "about": "Acerca de mí",
+    "projects": "Proyectos",
+    "testimonials": "Testimonios",
+    "contact": "Contacto"
+  },
+  "clients": {
+    "title1": "Palabras de ",
+    "title2": "clientes satisfechos"
+  },
+  "gridItems": {
+    "1": {
+      "title": "Priorizo la colaboración con el cliente, fomentando una comunicación abierta",
+      "description": ""
+    },
+    "2": {
+      "title": "Soy muy flexible con las comunicaciones en diferentes zonas horarias",
+      "description": ""
+    },
+    "3": {
+      "title": "Mi tech stack",
+      "description": "Siempre trato de mejorar"
+    },
+    "4": {
+      "title": "Entusiasta de la tecnología con pasión por el desarrollo.",
+      "description": ""
+    },
+    "5": {
+      "title": "Actualmente construyendo una app de imágenes impulsada por IA",
+      "description": "La primicia interna"
+    },
+    "6": {
+      "title": "¿Quieres comenzar un proyecto juntos?",
+      "description": ""
+    }
+  },
+  "projects": {
+    "1": {
+      "title": "Planetas del Sistema Solar en 3D para Explorar",
+      "des": "Explora las maravillas de nuestro sistema solar con esta cautivadora simulación 3D de los planetas usando Three.js."
+    },
+    "2": {
+      "title": "Yoom - App de Videoconferencias",
+      "des": "Simplifica tu experiencia de videoconferencia con Yoom. Conéctate sin problemas con colegas y amigos."
+    },
+    "3": {
+      "title": "SaaS de Imágenes con IA - Aplicación tipo Canva",
+      "des": "Una aplicación REAL de Software como Servicio con funciones de IA y un sistema de pagos y créditos utilizando la última tecnología."
+    },
+    "4": {
+      "title": "Sitio web animado del iPhone de Apple en 3D",
+      "des": "Recreé el sitio web del iPhone 15 Pro de Apple, combinando animaciones GSAP y efectos 3D con Three.js."
+    }
+  },
+  "testimonials": {
+    "1": {
+      "quote": "Colaborar con Antonio fue un placer absoluto. Su profesionalismo, rapidez y dedicación para ofrecer resultados excepcionales fueron evidentes a lo largo de nuestro proyecto. El entusiasmo de Antonio por cada aspecto del desarrollo realmente se destaca. Si buscas elevar tu sitio web y tu marca, Antonio es el socio ideal.",
+      "title": "CEO de Visual Routine Studio"
+    },
+    "2": {
+      "quote": "Colaborar con Antonio fue un placer absoluto. Su profesionalismo, rapidez y dedicación para ofrecer resultados excepcionales fueron evidentes a lo largo de nuestro proyecto. El entusiasmo de Antonio por cada aspecto del desarrollo realmente se destaca. Si buscas elevar tu sitio web y tu marca, Antonio es el socio ideal.",
+      "title": "CEO de Visual Routine Studio"
+    },
+    "3": {
+      "quote": "Colaborar con Antonio fue un placer absoluto. Su profesionalismo, rapidez y dedicación para ofrecer resultados excepcionales fueron evidentes a lo largo de nuestro proyecto. El entusiasmo de Antonio por cada aspecto del desarrollo realmente se destaca. Si buscas elevar tu sitio web y tu marca, Antonio es el socio ideal.",
+      "title": "CEO de Visual Routine Studio"
+    },
+    "4": {
+      "quote": "Colaborar con Antonio fue un placer absoluto. Su profesionalismo, rapidez y dedicación para ofrecer resultados excepcionales fueron evidentes a lo largo de nuestro proyecto. El entusiasmo de Antonio por cada aspecto del desarrollo realmente se destaca. Si buscas elevar tu sitio web y tu marca, Antonio es el socio ideal.",
+      "title": "CEO de Visual Routine Studio"
+    },
+    "5": {
+      "quote": "Colaborar con Antonio fue un placer absoluto. Su profesionalismo, rapidez y dedicación para ofrecer resultados excepcionales fueron evidentes a lo largo de nuestro proyecto. El entusiasmo de Antonio por cada aspecto del desarrollo realmente se destaca. Si buscas elevar tu sitio web y tu marca, Antonio es el socio ideal.",
+      "title": "CEO de Visual Routine Studio"
+    }
+  },
+  "workExperience": {
+    "1": {
+      "title": "Practicante de Ingeniería Frontend",
+      "desc": "Asistí en el desarrollo de una plataforma web basada en React.js, mejorando la interactividad."
+    },
+    "2": {
+      "title": "Desarrollador de Aplicaciones Móviles - JSM Tech",
+      "desc": "Diseñé y desarrollé una app móvil para plataformas iOS y Android utilizando React Native."
+    },
+    "3": {
+      "title": "Proyecto de Desarrollo de Aplicaciones Freelance",
+      "desc": "Lideré el desarrollo de una app móvil para un cliente, desde el concepto inicial hasta su despliegue en las tiendas de aplicaciones."
+    },
+    "4": {
+      "title": "Desarrollador Frontend Principal",
+      "desc": "Desarrollé y mantuve características de cara al usuario utilizando tecnologías modernas de frontend."
+    }
+  }
+}

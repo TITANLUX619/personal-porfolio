@@ -3,10 +3,13 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { DotBackground } from "./ui/DotBackground";
+import { getTranslations } from 'next-intl/server';
 
-const Hero = () => {
+const Hero = async () => {
+  const t = await getTranslations();
+
   return (
-    <div className="pb-20 pt-36">
+    <section id="hero" className="pb-20 pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -26,24 +29,24 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
 
           <TextGenerateEffect
-            words="Bringing Vsions to Life through Flawless User Experiences"
+            words={t('hero.title')}
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Antonio, a React/Next.js Developer based in Seville, Spain.
+            {t('hero.subtitle')}
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
-              title="Show my work"
+              title={t('hero.button')}
               icon={<FaLocationArrow />}
               position="right"
             />
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

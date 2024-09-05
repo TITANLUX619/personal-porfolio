@@ -5,13 +5,16 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "@/components/ui/Pin";
 import Image from "next/image";
-
+import { useTranslations } from 'next-intl';
 const RecentProjects = () => {
+  const t = useTranslations();
   return (
-    <div className="py-20">
+    <section id="projects" className="py-20">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        {t('recentProjects.title1')}{" "}
+        <span className="text-purple">
+          {t('recentProjects.title2')}
+        </span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-y-[102px] gap-x-14 28 mt-10">
         {projects.map((item) => (
@@ -42,7 +45,7 @@ const RecentProjects = () => {
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                {item.title}
+                {t(item.title)}
               </h1>
 
               <p
@@ -52,7 +55,7 @@ const RecentProjects = () => {
                   margin: "1vh 0",
                 }}
               >
-                {item.des}
+                {t(item.des)}
               </p>
 
               <div className="flex items-center justify-between mt-7 mb-3">
@@ -78,7 +81,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    {t('recentProjects.cardButton')}
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
@@ -87,7 +90,7 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

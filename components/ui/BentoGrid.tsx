@@ -10,7 +10,7 @@ import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { skills } from "@/data";
 import Image from "next/image";
-
+import { useTranslations } from 'next-intl';
 export const BentoGrid = ({
   className,
   children,
@@ -44,13 +44,14 @@ export const BentoGridItem = ({
 }: {
   className?: string;
   id: number;
-  title?: string | React.ReactNode;
-  description?: string | React.ReactNode;
+  title: string;
+  description: string;
   img?: string;
   imgClassName?: string;
   titleClassName?: string;
   spareImg?: string;
 }) => {
+  const t = useTranslations();
 
   const [copied, setCopied] = useState(false);
 
@@ -126,14 +127,14 @@ export const BentoGridItem = ({
         >
           {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
           <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
-            {description}
+            {t(description)}
           </div>
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
           {/* remove mb-2 mt-2 */}
           <div
             className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
           >
-            {title}
+            {t(title)}
           </div>
 
           {/* for the github 3d globe */}
@@ -183,7 +184,7 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
+                title={copied ? t('about.emailCopied') : t('about.copyEmail')}
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}

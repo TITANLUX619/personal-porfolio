@@ -1,17 +1,19 @@
 "use client";
 
 import React from "react";
-
 import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from "@/components/ui/InfiniteCards";
 import Image from "next/image";
+import { useTranslations } from 'next-intl';
 
 const Clients = () => {
+  const t = useTranslations();
+
   return (
     <section id="testimonials" className="py-20">
       <h1 className="heading">
-        Kind words from
-        <span className="text-purple"> satisfied clients</span>
+        {t("clients.title1")}
+        <span className="text-purple">{t('clients.title2')}</span>
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">

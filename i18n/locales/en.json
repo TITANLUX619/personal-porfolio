@@ -1,0 +1,122 @@
+{ 
+  "about": {
+    "copyEmail": "Copy my email",
+    "emailCopied": "Email copied!"
+  },
+  "hero": {
+   "title": "Bringing Visions to Life through Flawless User Experiences",
+    "subtitle": "Hi! I'm Antonio, a React/Next.js Developer based in Seville, Spain.",
+    "button": "Show my work"
+  },
+  "recentProjects": {
+    "title1": "A small selection of ",
+    "title2": "recent projects",
+    "cardButton": "View demo"
+  },
+  "clients": {
+    "title1": "Kind words from ",
+    "title2": "satisfied clients"
+  },
+  "experience": {
+    "title1": "My ",
+    "title2": "work experience"
+  },
+  "navItems": {
+    "about": "About me" ,
+    "projects": "Projects",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "gridItems": {
+    "1":{
+      "title": "I prioritize client collaboration, fostering open communication",
+      "description": ""
+    },
+    "2":{
+      "title": "I'm very flexible with time zone communications",
+      "description": ""
+    },
+    "3":{
+      "title": "My tech stack",
+      "description": "I constantly try to improve"
+    },
+    "4":{
+      "title": "Tech enthusiast with a passion for development.",
+      "description": ""
+    },
+    "5":{
+      "title": "Currently building a powered by IA pictures app",
+      "description": "The Inside Scoop"
+    },
+    "6":{
+      "title": "Do you want to start a project together?",
+      "description": ""
+    }
+  },
+  "projects": {
+    "1":{
+      "title": "3D Solar System Planets to Explore",
+      "des": "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js."
+    },
+    "2":{
+      "title": "Yoom - Video Conferencing App",
+      "des": "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends."
+    
+    },
+    "3":{
+      "title": "AI Image SaaS - Canva Application",
+      "des": "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack."
+     
+    },
+   "4": {
+      "title": "Animated Apple Iphone 3D Website",
+      "des": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects."
+     
+    }
+  },
+  "testimonials": {
+    "1":{
+      "quote": "Collaborating with Antonio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Antonio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Antonio is the ideal partner.",
+      "title": "CEO of Visual Routine Studio"
+    },
+    "2":{
+      "quote": "Collaborating with Antonio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Antonio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Antonio is the ideal partner.",
+      "title": "CEO of Visual Routine Studio"
+    },
+    "3":{
+      "quote": "Collaborating with Antonio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Antonio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Antonio is the ideal partner.",
+      "title": "CEO of Visual Routine Studio"
+    },
+    "4":{
+      "quote": "Collaborating with Antonio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Antonio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Antonio is the ideal partner.",
+      "title": "CEO of Visual Routine Studio"
+    },
+    "5":{
+      "quote": "Collaborating with Antonio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Antonio's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Antonio is the ideal partner.",
+      "title": "CEO of Visual Routine Studio"
+    }
+  },
+  "workExperience": {
+    "1":{
+      "title": "Frontend senior engineer", 
+      "desc": "Developed and maintained user-facing features using modern frontend technologies."
+
+    },
+    "2":{
+   
+      "title": "Mobile App Dev - JSM Tech",
+      "desc": "Designed and developed mobile app for both iOS & Android platforms using React Native."
+ 
+    },
+    "3":{
+
+      "title": "Freelance App Dev Project",
+      "desc": "Led the dev of a mobile app for a client, from initial concept to deployment on app stores."
+
+    },
+    "4":{
+      "title": "Lead Frontend Developer",
+      "desc": "Developed and maintained user-facing features using modern frontend technologies."
+    }
+  }
+}

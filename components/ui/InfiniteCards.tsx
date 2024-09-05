@@ -3,6 +3,7 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
+import { useTranslations } from 'next-intl';
 
 export const InfiniteMovingCards = ({
   items,
@@ -23,6 +24,7 @@ export const InfiniteMovingCards = ({
 }) => {
   const containerRef = React.useRef<HTMLDivElement>(null);
   const scrollerRef = React.useRef<HTMLUListElement>(null);
+  const t = useTranslations();
 
   useEffect(() => {
     addAnimation();
@@ -113,13 +115,13 @@ export const InfiniteMovingCards = ({
               ></div>
               {/* change text color, text-lg */}
               <span className=" relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
-                {item.quote}
+                {t(item.quote)}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
                 <div className="me-3">
                   <Image
-                    src="/profile.svg"
+                    src="/assets/profile.svg"
                     alt="profile"
                     width={40}
                     height={40}
@@ -132,7 +134,7 @@ export const InfiniteMovingCards = ({
                   </span>
                   {/* change text color */}
                   <span className=" text-sm leading-[1.6] text-white-200 font-normal">
-                    {item.title}
+                    {t(item.title)}
                   </span>
                 </span>
               </div>
