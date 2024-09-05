@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { NextIntlClientProvider } from 'next-intl';
-import { dir } from 'i18next';
 import { getMessages } from 'next-intl/server';
 
 const inter = Inter({ subsets: ["latin"] });
@@ -23,7 +22,7 @@ export default async function RootLayout({
   const locales = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning={true}>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"

@@ -1,6 +1,6 @@
 import { Spotlight } from "@/components/ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import MagicButton from "./ui/MagicButton";
+import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { DotBackground } from "./ui/DotBackground";
 import { getTranslations } from 'next-intl/server';
@@ -24,7 +24,6 @@ const Hero = async () => {
           fill="blue"
         />
       </div>
-      <DotBackground />
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
 

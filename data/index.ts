@@ -192,13 +192,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/assets/git.svg",
-  },
-  {
-    id: 2,
-    img: "/assets/twit.svg",
+    link: "https://github.com/TITANLUX619"
   },
   {
     id: 3,
     img: "/assets/link.svg",
+    link: "https://www.linkedin.com/in/antlopsou/"
   },
 ];

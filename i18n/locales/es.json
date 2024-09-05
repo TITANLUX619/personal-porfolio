@@ -27,6 +27,31 @@
     "title1": "Palabras de ",
     "title2": "clientes satisfechos"
   },
+  "approach": {
+    "title1": "Mi ",
+    "title2": "enfoque",
+    "card1": {
+      "phase": "Fase 1",
+      "title": "Planificación y Estrategia",
+      "description": "Colaboraremos para mapear los objetivos de tu sitio web, el público objetivo y las funcionalidades clave. Discutiremos cosas como la estructura del sitio, la navegación y los requisitos de contenido."
+      },
+    "card2": {
+      "phase": "Fase 2",
+      "title": "Desarrollo y Actualización de Progreso",
+      "description": "Una vez que acordemos el plan, pongo mi lista de reproducción de lofi y me sumerjo en la codificación. Desde los bocetos iniciales hasta el código pulido, te mantengo actualizado en cada paso del camino."
+      },
+    "card3": {
+      "phase": "Fase 3",
+      "title": "Pruebas y Lanzamiento",
+      "description": "Antes del lanzamiento, pruebo rigurosamente tu sitio en múltiples dispositivos y navegadores para garantizar una experiencia de usuario perfecta. Una vez que todo se vea bien, te ayudaré a implementar tu sitio."
+    }
+  },
+  "footer": {
+    "title1": " ¿Listo para llevar ",
+    "title2": "tu",
+    "title3": " presencia digital al siguiente nivel?",
+    "subtitle": "Contáctame hoy y hablemos sobre cómo puedo ayudarte a alcanzar tus objetivos."
+  },
   "gridItems": {
     "1": {
       "title": "Priorizo la colaboración con el cliente, fomentando una comunicación abierta",
