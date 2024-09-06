@@ -4,7 +4,7 @@ import { workExperience } from "@/data";
 import { Button } from "@/components/ui/MovingBorders";
 import { getTranslations } from 'next-intl/server';;
 
-const Experience = async ({ locale }: { locale: string }) => {
+const Experience = async () => {
   const t = await getTranslations();
   return (
     <section id="experience" className="py-20 w-full">
@@ -22,14 +22,14 @@ const Experience = async ({ locale }: { locale: string }) => {
             style={{
               //   add these two
               //   you can generate the color from here https://cssgradient.io/
-              background: "rgb(4,7,29)",
+              background: "rgb(49, 46, 129, 0.75)",
               backgroundColor:
-                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+                "linear-gradient(90deg, rgb(49, 46, 129) 0%, rgba(12,14,35,1) 100%)",
               // add this border radius to make it more rounded so that the moving border is more realistic
               borderRadius: `calc(1.75rem* 0.96)`,
             }}
             // remove bg-white dark:bg-slate-900
-            className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            className="flex-1 text-indigo-950 dark:text-white border-neutral-200 dark:border-slate-800"
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <img

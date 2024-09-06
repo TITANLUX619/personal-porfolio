@@ -142,18 +142,21 @@ export const companies = [
     name: "mercedes",
     img: "/assets/mercedes.svg",
     nameImg: "/assets/mercedesName.svg",
+    nameImgDark: "/assets/mercedesNameDark.svg",
   },
   {
     id: 2,
     name: "visualRoutine",
     img: "/assets/visualRoutine.svg",
     nameImg: "/assets/visualRoutineName.svg",
+    nameImgDark: "/assets/visualRoutineNameDark.svg",
   },
   {
     id: 3,
     name: "santander",
     img: "/assets/santander.svg",
     nameImg: "/assets/santanderName.svg",
+    nameImgDark: "/assets/santanderNameDark.svg",
   },
 ];
 

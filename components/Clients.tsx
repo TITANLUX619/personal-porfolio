@@ -5,9 +5,11 @@ import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from "@/components/ui/InfiniteCards";
 import Image from "next/image";
 import { useTranslations } from 'next-intl';
+import useDarkMode from "@/hooks/useDarkMode";
 
 const Clients = () => {
   const t = useTranslations();
+  const { isDarkMode } = useDarkMode();
 
   return (
     <section id="testimonials" className="py-20">
@@ -40,7 +42,7 @@ const Clients = () => {
                   height={40}
                 />
                 <Image
-                  src={company.nameImg}
+                  src={isDarkMode ? company.nameImgDark : company.nameImg}
                   alt={company.name}
                   width={company.id === 2 || company.id === 3 ? 100 : 150}
                   height={40}

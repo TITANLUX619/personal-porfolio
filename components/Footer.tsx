@@ -15,7 +15,7 @@ const Footer = async () => {
         <img
           src="/assets/footer-grid.svg"
           alt="grid"
-          className="w-full h-full opacity-50 "
+          className="w-full h-full dark:opacity-50 "
         />
       </div>
 
@@ -27,10 +27,10 @@ const Footer = async () => {
           </span>
           {t('footer.title3')}
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
+        <p className="text-indigo-950/75 md:mt-10 my-5 text-center">
           {t('footer.subtitle')}
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:antlopsou@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
