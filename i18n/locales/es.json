@@ -1,7 +1,7 @@
 { 
   "about": {
-    "copyEmail": "Copia mi email",
-    "emailCopied": "Email copiado!"
+    "downloadCv": "Descargar CV",
+    "cvLink": "CV_ALS_ES.pdf"
   },
   "hero" : {
     "title": "Dando Vida a las Visiones a Través de Experiencias de Usuario Impecables",
@@ -80,20 +80,12 @@
   },
   "projects": {
     "1": {
-      "title": "Planetas del Sistema Solar en 3D para Explorar",
-      "des": "Explora las maravillas de nuestro sistema solar con esta cautivadora simulación 3D de los planetas usando Three.js."
+      "title": "Kollab",
+      "des": "Crea documentos de texto colaborativos en tiempo real con Kollab. Edita, comparte y colabora con colegas en un entorno de trabajo en equipo."
     },
     "2": {
-      "title": "Yoom - App de Videoconferencias",
-      "des": "Simplifica tu experiencia de videoconferencia con Yoom. Conéctate sin problemas con colegas y amigos."
-    },
-    "3": {
-      "title": "SaaS de Imágenes con IA - Aplicación tipo Canva",
-      "des": "Una aplicación REAL de Software como Servicio con funciones de IA y un sistema de pagos y créditos utilizando la última tecnología."
-    },
-    "4": {
-      "title": "Sitio web animado del iPhone de Apple en 3D",
-      "des": "Recreé el sitio web del iPhone 15 Pro de Apple, combinando animaciones GSAP y efectos 3D con Three.js."
+      "title": "Meridian",
+      "des": "Manten todas tus cuentas bancarias en un solo lugar con Meridian. Administra tus finanzas de manera eficiente y segura."
     }
   },
   "testimonials": {
@@ -120,20 +112,28 @@
   },
   "workExperience": {
     "1": {
-      "title": "Practicante de Ingeniería Frontend",
-      "desc": "Asistí en el desarrollo de una plataforma web basada en React.js, mejorando la interactividad."
+      "title": "Experiencia en aplicaciones de gestión de incidencias",
+      "desc": "Desarrollo y mantenimiento de aplicaciones para gestionar incidencias y fallas en entornos de producción a nivel internacional, garantizando rendimiento óptimo y seguridad de los datos."
     },
     "2": {
-      "title": "Desarrollador de Aplicaciones Móviles - JSM Tech",
-      "desc": "Diseñé y desarrollé una app móvil para plataformas iOS y Android utilizando React Native."
+      "title": "Desarrollo de aplicaciones para el sector bancario",
+      "desc": "Diseño y construcción de aplicaciones web enfocadas en la gestión de préstamos y portales para clientes de banca online, implementando arquitecturas modernas como microfrontends."
     },
     "3": {
-      "title": "Proyecto de Desarrollo de Aplicaciones Freelance",
-      "desc": "Lideré el desarrollo de una app móvil para un cliente, desde el concepto inicial hasta su despliegue en las tiendas de aplicaciones."
+      "title": "Migración y evolución de ecosistemas de aplicaciones",
+      "desc": "Participación en la migración de aplicaciones internas hacia tecnologías modernas, mejorando la escalabilidad y seguridad en sistemas de agencias gubernamentales."
     },
     "4": {
-      "title": "Desarrollador Frontend Principal",
-      "desc": "Desarrollé y mantuve características de cara al usuario utilizando tecnologías modernas de frontend."
+      "title": "Implementación de metodologías ágiles y buenas prácticas de desarrollo",
+      "desc": "Aplicación de metodologías ágiles como SCRUM y GitFlow en entornos colaborativos, integrando pruebas automatizadas para asegurar la calidad del software."
+    },
+    "5": {
+      "title": "Experiencia en pruebas automatizadas y control de calidad",
+      "desc": "Uso de herramientas como Jest para pruebas unitarias y Cypress para pruebas end-to-end, asegurando un flujo de trabajo robusto y la calidad del software en aplicaciones críticas."
+    },
+    "6": {
+      "title": "Liderazgo de equipos y comunicación efectiva",
+      "desc": "Coordinación de equipos multidisciplinarios en proyectos de desarrollo de software, asegurando una comunicación fluida con clientes y stakeholders, y facilitando la colaboración en entornos ágiles."
     }
   }
 }

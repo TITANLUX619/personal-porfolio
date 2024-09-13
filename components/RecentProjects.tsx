@@ -9,21 +9,21 @@ import { useTranslations } from 'next-intl';
 const RecentProjects = () => {
   const t = useTranslations();
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="pt-20 pb-52">
       <h1 className="heading">
         {t('recentProjects.title1')}{" "}
         <span className="text-purple">
           {t('recentProjects.title2')}
         </span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-y-[102px] gap-x-14 28 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-y-[275px] gap-x-20 28 mt-44">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className=" h-[10vh] lg:h-[20vh] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
             <PinContainer>
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[10vh] lg:h-[20vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-2xl"
                   style={{ backgroundColor: "#13162D" }}
@@ -38,13 +38,13 @@ const RecentProjects = () => {
                 <Image
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute rounded-lg top-[5px] scale-95 rotate-3"
                   width={500}
                   height={500}
                 />
               </div>
 
-              <h1 className="font-bold text-indigo-950 lg:text-2xl md:text-xl text-base line-clamp-1">
+              <h1 className="font-bold text-indigo-950 dark:text-white lg:text-2xl md:text-xl text-base line-clamp-1">
                 {t(item.title)}
               </h1>
 

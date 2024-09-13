@@ -54,21 +54,26 @@ export const BentoGridItem = ({
 }) => {
   const t = useTranslations();
 
-  const [copied, setCopied] = useState(false);
+  const [downloaded, setDownloaded] = useState(false);
 
   const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
+    loop: downloaded,
+    autoplay: downloaded,
     animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
 
-  const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
-    navigator.clipboard.writeText(text);
-    setCopied(true);
+  const handleDownload = () => {
+    const docName = t('about.cvLink')
+    const link = document.createElement('a');
+    link.href = docName;
+    link.setAttribute('download', docName);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setDownloaded(true);
   };
 
   return (
@@ -176,17 +181,15 @@ export const BentoGridItem = ({
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
               {/* add handleCopy() for the copy the text */}
               <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                  }`}
-              >
+                className={`absolute -bottom-5 right-0 `}              >
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
               <MagicButton
-                title={copied ? t('about.emailCopied') : t('about.copyEmail')}
+                title={t('about.downloadCv')}
                 icon={<IoCopyOutline />}
                 position="left"
-                handleClick={handleCopy}
+                handleClick={handleDownload}
                 otherClasses="!bg-[#161A31]"
               />
             </div>

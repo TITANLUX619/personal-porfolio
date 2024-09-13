@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/assets/b1.svg",
+    img: "/assets/op1.jpg",
     spareImg: "",
   },
   {
@@ -78,17 +78,17 @@ export const projects = [
     id: 1,
     title: "projects.1.title",
     des: "projects.1.des",
-    img: "/assets/p1.svg",
+    img: "/assets/kollab.png",
     iconLists: ["/assets/re.svg", "/assets/tail.svg", "/assets/ts.svg", "/assets/three.svg", "/assets/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://kollab-web-app.vercel.app/",
   },
   {
     id: 2,
     title: "projects.2.title",
     des: "projects.2.des",
-    img: "/assets/p2.svg",
+    img: "/assets/meridian.png",
     iconLists: ["/assets/next.svg", "/assets/tail.svg", "/assets/ts.svg", "/assets/stream.svg", "/assets/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://meridian-web-app-jade.vercel.app/",
   },
   {
     id: 3,
@@ -188,6 +188,20 @@ export const workExperience = [
     desc: "workExperience.4.desc",
     className: "md:col-span-2",
     thumbnail: "/assets/exp4.svg",
+  },
+  {
+    id: 5,
+    title: "workExperience.5.title",
+    desc: "workExperience.5.desc",
+    className: "md:col-span-2",
+    thumbnail: "/assets/exp5.svg",
+  },
+  {
+    id: 6,
+    title: "workExperience.6.title",
+    desc: "workExperience.6.desc",
+    className: "md:col-span-2",
+    thumbnail: "/assets/exp6.svg",
   },
 ];
 

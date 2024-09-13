@@ -1,7 +1,7 @@
 { 
   "about": {
-    "copyEmail": "Copy my email",
-    "emailCopied": "Email copied!"
+    "downloadCv": "Download CV",
+    "cvLink": "CV_ALS_EN.pdf"
   },
   "hero": {
    "title": "Bringing Visions to Life through Flawless User Experiences",
@@ -79,23 +79,14 @@
     }
   },
   "projects": {
-    "1":{
-      "title": "3D Solar System Planets to Explore",
-      "des": "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js."
+    "1": {
+      "title": "Kollab",
+      "des": "Create collaborative text documents in real time with Kollab. Edit, share, and collaborate with colleagues in a team-oriented workspace."
     },
-    "2":{
-      "title": "Yoom - Video Conferencing App",
-      "des": "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends."
-    
-    },
-    "3":{
-      "title": "AI Image SaaS - Canva Application",
-      "des": "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack."
-    },
-   "4": {
-      "title": "Animated Apple Iphone 3D Website",
-      "des": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects."
-    }
+    "2": {
+      "title": "Meridian",
+
+      "des": "Keep all your bank accounts in one place with Meridian. Manage your finances efficiently and securely."    }
   },
   "testimonials": {
     "1":{
@@ -120,21 +111,29 @@
     }
   },
   "workExperience": {
-    "1":{
-      "title": "Frontend senior engineer", 
-      "desc": "Developed and maintained user-facing features using modern frontend technologies."
+    "1": {
+      "title": "Experience in Incident Management Applications",
+      "desc": "Development and maintenance of applications for managing incidents and failures in international production environments, ensuring optimal performance and data security."
     },
-    "2":{
-      "title": "Mobile App Dev - JSM Tech",
-      "desc": "Designed and developed mobile app for both iOS & Android platforms using React Native."
+    "2": {
+      "title": "Development of Applications for the Banking Sector",
+      "desc": "Design and construction of web applications focused on loan management and client portals for online banking, implementing modern architectures like microfrontends."
     },
-    "3":{
-      "title": "Freelance App Dev Project",
-      "desc": "Led the dev of a mobile app for a client, from initial concept to deployment on app stores."
+    "3": {
+      "title": "Migration and Evolution of Application Ecosystems",
+      "desc": "Involvement in the migration of internal applications to modern technologies, enhancing scalability and security in systems for government agencies."
     },
-    "4":{
-      "title": "Lead Frontend Developer",
-      "desc": "Developed and maintained user-facing features using modern frontend technologies."
+    "4": {
+      "title": "Implementation of Agile Methodologies and Best Development Practices",
+      "desc": "Application of Agile methodologies such as SCRUM and GitFlow in collaborative environments, integrating automated testing to ensure software quality."
+    },
+    "5": {
+      "title": "Expertise in Automated Testing and Quality Assurance",
+      "desc": "Utilization of tools like Jest for unit testing and Cypress for end-to-end testing, ensuring a robust workflow and maintaining software quality in critical applications."
+    },
+    "6": {
+      "title": "Team Leadership and Effective Communication",
+      "desc": "Leadership of multidisciplinary teams in software development projects, ensuring clear communication with clients and stakeholders, and fostering collaboration in Agile environments."
     }
   }
 }
